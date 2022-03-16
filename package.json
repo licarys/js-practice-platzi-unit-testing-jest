@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/licarys/js-practice-platzi-unit-testing-jest/issues"
   },
-  "homepage": "https://github.com/licarys/js-practice-platzi-unit-testing-jest#readme"
+  "homepage": "https://github.com/licarys/js-practice-platzi-unit-testing-jest#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
