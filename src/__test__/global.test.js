@@ -44,3 +44,13 @@ test('Probar una promesa', () => {
     });
 });
 
+test('Probar async/await', async () => {
+  const text = await reverseString2('hola');
+  expect(text).toBe('aloh');
+});
+
+afterEach( ()=> console.log('Antes de cada prueba') );
+afterAll( ()=> console.log('Antes de todas las pruebas') );
+
+beforeEach( ()=> console.log('Despues de cada prueba') );
+beforeAll( ()=> console.log('Despues de todas las pruebas') );
